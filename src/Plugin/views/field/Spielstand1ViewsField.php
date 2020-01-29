@@ -54,8 +54,13 @@ class Spielstand1ViewsField extends FieldPluginBase {
     // Return a random text, here you can include your custom logic.
     // Include any namespace required to call the method required to generate
     // the desired output.
-    $random = new Random();
-    return $random->name();
+    $eins = strip_tags($this->view->field['field_mannschaft_1']->original_value);
+	$mannschaft = strip_tags($this->view->field['field_mannschaft']->original_value);
+	if ($eins == $mannschaft) {
+		return 1;
+	} else {
+		return 0;
+	}
   }
 
 }

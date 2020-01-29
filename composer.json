@@ -1,0 +1,13 @@
+{
+    "name": "spielstand_views",
+    "type": "drupal-module",
+    "description": "Provides a Views Field that checks if the current player is part of Mannschaft 1",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/spielstand_views",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/spielstand_views",
+        "source": "http://cgit.drupalcode.org/spielstand_views",
+    },
+}

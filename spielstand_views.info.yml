@@ -1,0 +1,5 @@
+name: 'Spielstand Views'
+type: module
+description: 'Provides a Views Field that checks if the current player is part of Mannschaft 1'
+core: 8.x
+package: 'ksg'
